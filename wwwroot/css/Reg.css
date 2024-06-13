@@ -1,0 +1,206 @@
+﻿
+h3 {
+    font-size: 50px;
+    font-family: arial;
+    color: gold;
+    position: absolute;
+    top: 180px;
+    left: 510px;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 30px;
+    font-family: arial;
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 390px;
+    font-weight: 700;
+}
+
+#sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 1050px;
+    width: 980px;
+    border: 1px solid rgb(202, 200, 200);
+    border-radius: 3px;
+    position: absolute;
+    left: 180px;
+    top: 400px;
+    background-color: rgb(245, 241, 241);
+    box-sizing: border-box;
+}
+
+.con {
+    height: 900px;
+    width: 440px;
+    border: 1px solid rgb(172, 169, 169);
+    margin-top: 30px;
+    border-radius: 2px;
+}
+
+#foot {
+    height: 800px;
+    width: 1335px;
+    background-color: rgba(6,6, 85,0.952);
+    display: flex;
+}
+
+.foot {
+    height: 150px;
+    width: 380px;
+    text-align: center;
+}
+
+    .foot b {
+        font-weight: 900;
+        font-size: 50px;
+        font-family: arial;
+        color: rgb(55, 179, 228);
+    }
+
+.aa {
+    position: relative;
+    top: 130px;
+    left: 70px;
+}
+
+.bb {
+    position: relative;
+    top: 50px;
+    left: 110px;
+}
+
+.cc {
+    position: relative;
+    top: 130px;
+    left: 130px;
+}
+
+.foot p {
+    word-spacing: 5px;
+    color: white;
+    font-family: arial;
+    font-weight: 750;
+    text-justify: inter-character;
+}
+
+#foot2 {
+    margin-left: 350px;
+    margin-top: 0px;
+    position: relative;
+    top: -580px;
+}
+
+    #foot2 p {
+        color: rgb(202, 198, 198);
+        font-family: arial;
+        margin-left: 80px;
+    }
+
+.a4 {
+    margin-left: 150px;
+}
+
+#a5 {
+    font-size: small;
+    position: absolute;
+    left: 160px;
+}
+
+#a6 {
+    font-size: small;
+    position: absolute;
+    bottom: 35px;
+    left: 130px;
+}
+
+#foot3 {
+    margin-left: -80px;
+    margin-top: 80px;
+}
+
+    #foot3 a {
+        padding-left: 40px;
+        color: white;
+        text-decoration-line: none;
+    }
+
+#a6 a {
+    color: white;
+    text-decoration-line: none;
+    font-weight: 300;
+}
+
+#foot3 a:hover {
+    text-decoration-line: underline;
+}
+
+#a6 a:hover {
+    text-decoration-line: underline;
+}
+
+#final {
+    position: absolute;
+    top: 1500px;
+}
+
+.a label {
+    font-size: 13px;
+    font-family: arial;
+    font-weight: 800;
+    padding-left: 15px;
+}
+
+.b label {
+    font-size: 13px;
+    font-family: arial;
+    font-weight: 800;
+    padding-left: 15px;
+}
+
+.input input {
+    width: 380px;
+    height: 25px;
+    margin-left: 18px;
+}
+
+.con select {
+    width: 380px;
+    height: 25px;
+    margin-left: 18px;
+}
+
+#button {
+    width: 390px;
+    height: 38px;
+    font-family: arial;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(20, 241, 20);
+    border-color: rgb(20, 241, 20);
+    border-radius: 4px;
+}
+
+input:hover {
+    filter: drop-shadow(5px 5px 15px rgb(186, 250, 228));
+    background-color: rgb(218, 236, 230);
+    border-color: rgb(202, 200, 200);
+    border-bottom: 1px solid rgb(173, 173, 173);
+    border-top: 1px solid rgb(173, 173, 173);
+    border-left: 1px solid rgb(173, 173, 173);
+}
+
+select:hover {
+    filter: drop-shadow(5px 5px 15px rgb(186, 250, 228));
+    background-color: rgb(218, 236, 230);
+    border-color: rgb(202, 200, 200);
+    border-bottom: 1px solid rgb(173, 173, 173);
+    border-top: 1px solid rgb(173, 173, 173);
+    border-left: 1px solid rgb(173, 173, 173);
+}
+        
+
