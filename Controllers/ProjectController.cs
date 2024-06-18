@@ -35,7 +35,7 @@ namespace project_ScopeIndia.Controllers
 			email.From.Add(MailboxAddress.Parse("bibinrajbibinrajbibinraj@gmail.com"));
 			email.To.Add(MailboxAddress.Parse("aswindaswind2003@gmail.com"));
 
-			string htmlbody= @" <h1>Contact Form Submission</h1>< h1> Name: { obj.Name}</ h1 >< h1 > Email: { obj.Email}</ h1 >< p > Subject: { obj.Subject}</ p >< p > Message: { obj.Msg}</ p ></body></html> ";
+			string htmlbody= @$" <h1>Contact Form Submission</h1><p> Name: { obj.Name}</p><p> Email: { obj.Email}</p><p> Subject: { obj.Subject}</p><p> Message: { obj.Msg}</p>";
 			email.Body=new TextPart(TextFormat.Html){Text=htmlbody};
 			 var smtp=new SmtpClient();
 			smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
