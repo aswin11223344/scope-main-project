@@ -12,11 +12,11 @@
         <h2 style="color: rgb(16, 184, 16);font-weight: 800;font-family:Arial;">GET A FREE CALL BACK</h2>
         <form  method="post" asp-controller="project" asp-action="Contact">
         <label asp-for="Name">Name</label>
-        <input asp-for="Name" type="text" placeholder="Enter your name">
+        <input name="Name" type="text"  placeholder="Enter your name">
         <span asp-validation-for="Name" class="text-danger"></span>
         <br>
         <label asp-for="Email">Email</label>
-        <input asp-for="Email" type="email" placeholder="Enter your email.">
+        <input name="Email" type="email" placeholder="Enter your email.">
             <span asp-validation-for="Email" class="text-danger"></span><br><br>
             <label asp-for="Subject">Subject</label>
             
@@ -31,10 +31,7 @@
    
 
 
-    @ViewBag.name
-    @ViewBag.subject
-     @ViewBag.msg
-     @ViewBag.email
+   
 
 
     @section Scripts {

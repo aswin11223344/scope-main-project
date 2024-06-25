@@ -15,10 +15,7 @@ namespace project_ScopeIndia.Controllers
 		{
 			return View();
 		}
-		public IActionResult Reg()
-		{
-			return View();
-		}
+		
 		public IActionResult Contact()
 		{
 			return View();	
@@ -27,15 +24,12 @@ namespace project_ScopeIndia.Controllers
 		[ValidateAntiForgeryToken]
 		public IActionResult Contact(Contactas obj)
 		{
-			ViewBag.name= obj.Name;
-			ViewBag.email = obj.Email;
-			ViewBag.subject = obj.Subject;
-			ViewBag.msg = obj.Msg;
+	
 			var email = new MimeMessage();
 			email.From.Add(MailboxAddress.Parse("bibinrajbibinrajbibinraj@gmail.com"));
 			email.To.Add(MailboxAddress.Parse("aswindaswind2003@gmail.com"));
 
-			string htmlbody= @" <h1>Contact Form Submission</h1>< h1> Name: { obj.Name}</ h1 >< h1 > Email: { obj.Email}</ h1 >< p > Subject: { obj.Subject}</ p >< p > Message: { obj.Msg}</ p ></body></html> ";
+			string htmlbody= @$" <h1>Contact Form Submission</h1><h5> Name: { obj.Name}</h5><h5> Email: { obj.Email}</h5><h5> Subject: { obj.Subject}</h5><h5> Message: { obj.Msg}</h5>";
 			email.Body=new TextPart(TextFormat.Html){Text=htmlbody};
 			 var smtp=new SmtpClient();
 			smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
@@ -48,6 +42,11 @@ namespace project_ScopeIndia.Controllers
 
             return View();
 		}
-      
+        public IActionResult Reg()
+        {
+
+            return View();
+        }
+
     }
 }

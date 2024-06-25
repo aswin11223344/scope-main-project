@@ -1,28 +1,29 @@
-﻿
+﻿@model project_ScopeIndia.Models.Reg
+
 
 <h3>Registration</h3>
 <h4>It's just a matter of 80 days to an IT job!</h4>
 <section id="sec">
     <div class="con a">
         <br><br>
-        <form action="" method="post" enctype="multipart/form-data" target="_self">
+        <form asp-controller="project"  method="post" enctype="multipart/form-data" target="_self">
             <div class="input">
-                <label for="fullname">Full Name(requried)</label><br><br>
+                <label asp-for="fullname">Full Name(requried)</label><br><br>
                 <input type="text" id="fullname" name="fullname" required><br><br>
-                <label for="brith">Date of Birth (required)</label><br><br>
-                <input type="date" id="brith" name="brith" required><br><br>
+                <label asp-for="birth">Date of Birth (required)</label><br><br>
+                <input type="date" id="birth" name="birth" required><br><br>
             </div>
-            <label for="gender">Gender</label><br><br>
-            <label for="male">Male</label>
+            <label name="gender">Gender</label><br><br>
+            <label asp-for="gender">Male</label>
             <input type="radio" id="male" name="gender" value="Male">
-            <label for="female">Female</label>
+            <label asp-for="gender">Female</label>
             <input type="radio" id="female" name="gender" value="Female">
-            <label for="other">Other</label>
+            <label asp-for="gender">Other</label>
             <input type="radio" id="other" name="gender" value="Other"><br><br>
             <div class="input">
-                <label for="qualification">Educational Qualification</label><br><br>
-                <input type="text" id="qualification" name="qualification"><br><br>
-                <label for="course">Choose your course (required)</label><br><br>
+             @*    <label asp-for="qualification">Educational Qualification</label><br><br>
+                <input type="text" id="qualification" name="qualification"><br><br> *@
+                <label asp-for="course">Choose your course (required)</label><br><br>
                 <select name="course" id="course">
                     <optgroup label="Networking">
                         <option value="AWS">AWS</option>
@@ -35,59 +36,59 @@
                         <option value="java">Java full stack</option>
                     </optgroup>
                 </select><br><br>
-                <label for="num">Mobile Number (required)</label><br><br>
+                <label asp-for="num">Mobile Number (required)</label><br><br>
                 <input type="tel" id="num" name="num" minlength="10"><br><br>
-                <label for="mail">Email (required)</label><br><br>
+                <label asp-for="mail">Email (required)</label><br><br>
                 <input type="email" id="mail" name="mail"><br><br>
-                <label for="gnum">Guardian's Mobile</label><br><br>
+                <label asp-for="gnum">Guardian's Mobile</label><br><br>
 
                 <input type="tel" id="gnum" name="gnum"><br><br>
             </div>
-            <label for="train">Training Mode (required)</label><br><br>
+            <label asp-for="train">Training Mode (required)</label><br><br>
             &nbsp; &nbsp; &nbsp;<input type="radio" id="live" name="train">
-            <label for="live">Live Online</label>
+            <label asp-for="live">Live Online</label>
             &nbsp; &nbsp;<input type="radio" id="class" name="train">
-            <label for="class">Class Room</label>
+            <label asp-for="class">Class Room</label>
             <br><br>
-            <label for="scope">SCOPE INDIA Location (required)</label><br><br>
+            <label asp-for="scope">SCOPE INDIA Location (required)</label><br><br>
 
             &nbsp; &nbsp; &nbsp;<input type="radio" id="a" name="scope">
-            <label for="a">Technopark TVM</label>
+            <label asp-for="a">Technopark TVM</label>
             &nbsp; &nbsp; &nbsp;<input type="radio" id="b " name="scope">
-            <label for="b">Thampanoor TVM</label>
+            <label asp-for="b">Thampanoor TVM</label>
             &nbsp; &nbsp; &nbsp;<input type="radio" id="c" name="scope">
-            <label for="c">Kochi</label>
+            <label asp-for="c">Kochi</label>
             &nbsp; &nbsp; &nbsp;<input type="radio" id="d" name="scope">
-            <label for="d"> Nagercoil</label>
+            <label asp-for="d"> Nagercoil</label>
             &nbsp; &nbsp; &nbsp;<input type="radio" id="e" name="scope">
-            <label for="e">Online</label>
-            <br>   <br>
+            <label asp-for="e">Online</label>
+            <br> <br>
         </form>
     </div>
     <div class="con b">
         <br><br>
         <form action="" method="post" enctype="multipart/form-data" target="_self">
             <div class="input">
-                <label for="Guardian's Name">Guardian's Name</label><br><br>
-                <input type="text" id="Guardian's Name" name="Guardian's Name" required><br><br>
-                <label for="Guardian's Occupation">Guardian's Occupation</label><br><br>
-                <input type="text" id="Guardian's Occupation" name="Guardian's Occupation" required><br><br>
+                <label asp-for="GuardianName">Guardian's Name</label><br><br>
+                <input type="text" id="Guardian's Name" name="GuardianName" required><br><br>
+               @*  <label for="Guardian's Occupation">Guardian's Occupation</label><br><br>
+                <input type="text" id="Guardian's Occupation" name="Guardian's Occupation" required><br><br> *@
             </div>
-            <label for="check">Preferred Training Timings (required)</label><br><br>
+            <label asp-for="check">Preferred Training Timings (required)</label><br><br>
             &nbsp; &nbsp; &nbsp;<input type="checkbox" id="ch" name="check"><label for="ch">Between 7am - 10am</label><br><br>
             &nbsp; &nbsp; &nbsp;<input type="checkbox" id="ch" name="check"><label for="ch"> Between 9am - 1pm</label><br><br>
             &nbsp; &nbsp; &nbsp;<input type="checkbox" id="ch" name="check"><label for="ch"> Between 1pm - 6pm</label><br><br>
             &nbsp; &nbsp; &nbsp;<input type="checkbox" id="ch" name="check"><label for="ch"> Between 6pm - 10pm</label><br><br>
             <div class="input">
-                <label for="add"> Address</label><br><br>
+                <label asp-for="add"> Address</label><br><br>
                 <input type="text" id="add" name="add"><br><br>
-                <label for="Country">Country</label><br><br>
+                <label asp-for="Country">Country</label><br><br>
                 <input type="text" id="Country" name="Country"><br><br>
-                <label for="State">State</label><br><br>
+                <label asp-for="State">State</label><br><br>
                 <input type="text" id="State" name="State"><br><br>
-                <label for="City">City</label><br><br>
+                <label asp-for="City">City</label><br><br>
                 <input type="text" id="City" name="City"><br><br>
-                <label for="pin"> PIN/Zip Code </label><br><br>
+                <label asp-for="pin"> PIN/Zip Code </label><br><br>
                 <input type="text" name="pin" id="pin" minlength="6"><br><br>
                 <input id="button" type="button" value="Complete Registration > >">
             </div>

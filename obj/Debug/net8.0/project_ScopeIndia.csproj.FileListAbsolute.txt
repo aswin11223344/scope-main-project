@@ -1,0 +1,9 @@
+C:\Users\Scope\aswin-project\scope-main-project\obj\Debug\net8.0\project_ScopeIndia.csproj.AssemblyReference.cache
+C:\Users\Scope\aswin-project\scope-main-project\obj\Debug\net8.0\project_ScopeIndia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Scope\aswin-project\scope-main-project\obj\Debug\net8.0\project_ScopeIndia.AssemblyInfoInputs.cache
+C:\Users\Scope\aswin-project\scope-main-project\obj\Debug\net8.0\project_ScopeIndia.AssemblyInfo.cs
+C:\Users\Scope\aswin-project\scope-main-project\obj\Debug\net8.0\project_ScopeIndia.csproj.CoreCompileInputs.cache
+C:\Users\Scope\aswin-project\scope-main-project\obj\Debug\net8.0\project_ScopeIndia.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Scope\aswin-project\scope-main-project\obj\Debug\net8.0\project_ScopeIndia.RazorAssemblyInfo.cache
+C:\Users\Scope\aswin-project\scope-main-project\obj\Debug\net8.0\project_ScopeIndia.RazorAssemblyInfo.cs
+C:\Users\Scope\aswin-project\scope-main-project\obj\Debug\net8.0\project_ScopeIndia.sourcelink.json

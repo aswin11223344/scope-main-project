@@ -1,0 +1,236 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|c:\\users\\scope\\aswin-project\\scope-main-project\\views\\project\\reg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|solutionrelative:views\\project\\reg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|c:\\users\\scope\\aswin-project\\scope-main-project\\models\\reg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|solutionrelative:models\\reg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|c:\\users\\scope\\aswin-project\\scope-main-project\\views\\project\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|solutionrelative:views\\project\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|c:\\users\\scope\\aswin-project\\scope-main-project\\wwwroot\\css\\reg.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|solutionrelative:wwwroot\\css\\reg.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|c:\\users\\scope\\aswin-project\\scope-main-project\\wwwroot\\css\\projectstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|solutionrelative:wwwroot\\css\\projectstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|c:\\users\\scope\\aswin-project\\scope-main-project\\models\\contactas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|solutionrelative:models\\contactas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|c:\\users\\scope\\aswin-project\\scope-main-project\\views\\project\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|solutionrelative:views\\project\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|c:\\users\\scope\\aswin-project\\scope-main-project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|c:\\users\\scope\\aswin-project\\scope-main-project\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|solutionrelative:controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|c:\\users\\scope\\aswin-project\\scope-main-project\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|c:\\users\\scope\\aswin-project\\scope-main-project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|c:\\users\\scope\\aswin-project\\scope-main-project\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|c:\\users\\scope\\aswin-project\\scope-main-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06A40549-C1C1-40A4-B42D-1647C4439F71}|project_ScopeIndia.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contactas.cs",
+              "DocumentMoniker": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Models\\Contactas.cs",
+              "RelativeDocumentMoniker": "Models\\Contactas.cs",
+              "ToolTip": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Models\\Contactas.cs",
+              "RelativeToolTip": "Models\\Contactas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T05:37:26.775Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Views\\Project\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Project\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Views\\Project\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Project\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:24:05.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reg.cshtml",
+              "DocumentMoniker": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Views\\Project\\Reg.cshtml",
+              "RelativeDocumentMoniker": "Views\\Project\\Reg.cshtml",
+              "ToolTip": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Views\\Project\\Reg.cshtml",
+              "RelativeToolTip": "Views\\Project\\Reg.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T06:29:34.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reg.css",
+              "DocumentMoniker": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\wwwroot\\css\\Reg.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Reg.css",
+              "ToolTip": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\wwwroot\\css\\Reg.css",
+              "RelativeToolTip": "wwwroot\\css\\Reg.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAM0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-07T06:37:35.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "projectstyle.css",
+              "DocumentMoniker": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\wwwroot\\css\\projectstyle.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\projectstyle.css",
+              "ToolTip": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\wwwroot\\css\\projectstyle.css",
+              "RelativeToolTip": "wwwroot\\css\\projectstyle.css",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-06T06:09:55.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "home.cshtml",
+              "DocumentMoniker": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Views\\Project\\home.cshtml",
+              "RelativeDocumentMoniker": "Views\\Project\\home.cshtml",
+              "ToolTip": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Views\\Project\\home.cshtml",
+              "RelativeToolTip": "Views\\Project\\home.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T04:35:53.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reg.cs",
+              "DocumentMoniker": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Models\\Reg.cs",
+              "RelativeDocumentMoniker": "Models\\Reg.cs",
+              "ToolTip": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Models\\Reg.cs",
+              "RelativeToolTip": "Models\\Reg.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T06:28:38.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T06:35:55.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "Controllers\\ProjectController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T06:47:09.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T06:46:35.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T06:41:28.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T06:41:39.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T06:58:06.056Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project-ScopeIndia.csproj": {}
+    "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project_ScopeIndia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project-ScopeIndia.csproj": {
+    "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project_ScopeIndia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project-ScopeIndia.csproj",
-        "projectName": "project-ScopeIndia",
-        "projectPath": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project-ScopeIndia.csproj",
+        "projectUniqueName": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project_ScopeIndia.csproj",
+        "projectName": "project_ScopeIndia",
+        "projectPath": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project_ScopeIndia.csproj",
         "packagesPath": "C:\\Users\\Scope\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\obj\\",
         "projectStyle": "PackageReference",

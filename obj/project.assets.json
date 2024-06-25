@@ -271,24 +271,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\adlin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Scope\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adlin\\source\\Project\\project-ScopeIndia\\project-ScopeIndia.csproj",
-      "projectName": "project-ScopeIndia",
-      "projectPath": "C:\\Users\\adlin\\source\\Project\\project-ScopeIndia\\project-ScopeIndia.csproj",
-      "packagesPath": "C:\\Users\\adlin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adlin\\source\\Project\\project-ScopeIndia\\obj\\",
+      "projectUniqueName": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project_ScopeIndia.csproj",
+      "projectName": "project_ScopeIndia",
+      "projectPath": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project_ScopeIndia.csproj",
+      "packagesPath": "C:\\Users\\Scope\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\adlin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Scope\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -344,7 +339,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
