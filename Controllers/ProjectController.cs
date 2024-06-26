@@ -5,6 +5,12 @@ using MimeKit.Text;
 using MimeKit;
 using System.Diagnostics;
 using MailKit.Net.Smtp;
+using Microsoft.Data.SqlClient;
+using Org.BouncyCastle.Tls;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Diagnostics.Metrics;
+using System;
 
 
 namespace project_ScopeIndia.Controllers
@@ -37,15 +43,19 @@ namespace project_ScopeIndia.Controllers
 			smtp.Send(email);
 			smtp.Disconnect(true);
 			ViewBag.message = "message sented successfully";
-
-
-
             return View();
-		}
+        }
         public IActionResult Reg()
         {
-			ViewBag.name = "Prem kumar";
             return View();
+        }
+        [HttpPost]
+        public IActionResult Reg(Reg objreg)
+        {
+			SqlConnection con = new SqlConnection(@"Data Source = (localdb)\MSSQLLocalDB; Initial Catalog = master; Integrated Security = True; Connect Timeout = 30; Encrypt = False; Trust Server Certificate = False; Application Intent = ReadWrite; Multi Subnet Failover = False");
+			con.Open();
+			
+			return View();
         }
 
     }
