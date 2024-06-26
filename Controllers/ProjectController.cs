@@ -44,7 +44,7 @@ namespace project_ScopeIndia.Controllers
 		}
         public IActionResult Reg()
         {
-
+			ViewBag.name = "Prem kumar";
             return View();
         }
 
