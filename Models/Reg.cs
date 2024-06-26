@@ -16,5 +16,7 @@ namespace project_ScopeIndia.Models
         public string scope { get; set; }
         public string GuardianName { get; set; }
         public string check { get; set; }
+
+        public string Name { get; set; }
     }
 }
