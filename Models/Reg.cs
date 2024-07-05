@@ -1,29 +1,44 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Data.SqlClient;
+
 
 namespace project_ScopeIndia.Models
 {
     public class Reg
     {
-        public string fullname { get; set; }
-        [DataType(DataType.Date)]
-        public DateTime birth { get; set; }
-        public string gender { get; set; }
-        public string qualification { get; set; }
-        public string course { get; set; }
-        public string num { get; set; }
-        public string mail { get; set; }
-        public string gnum { get; set; }
 
-        public string train { get; set; }
-        public string scope { get; set; }
-        public string GuardianName { get; set; }
-        public string check { get; set; }
-        public string add { get; set; }
-        public string Country { get; set; }
-        public string State { get; set; }   
-        public string City { get; set; }
-        public string pin { get; set; }
 
-       
+
+      
+            [Required(ErrorMessage = "Name is required")]
+            public string Name { get; set; }
+
+            [Required(ErrorMessage = "Age is required")]
+            [Range(1, 150, ErrorMessage = "Age must be between 1 and 150")]
+            public int Age { get; set; }
+
+            [Required(ErrorMessage = "Country is required")]
+            public string Country { get; set; }
+
+            [Required(ErrorMessage = "State is required")]
+            public string State { get; set; }
+
+            [Required(ErrorMessage = "City is required")]
+            public string City { get; set; }
+
+            [Required(ErrorMessage = "Phone Number is required")]
+            [Phone(ErrorMessage = "Invalid Phone Number")]
+            public string PhoneNumber { get; set; }
+
+            [Required(ErrorMessage = "Email is required")]
+            [EmailAddress(ErrorMessage = "Invalid Email Address")]
+            public string Email { get; set; }
+
+            [Required(ErrorMessage = "Gender is required")]
+            public string Gender { get; set; }
+        }
     }
-}
+
+

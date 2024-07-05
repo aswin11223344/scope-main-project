@@ -1,0 +1,39 @@
+﻿@model project_ScopeIndia.Models.Contactas
+    @{
+            Layout = "~/Views/Shared/_Layout.cshtml";
+
+    }
+
+<div style="background-color:lightgray;height:450px; width:1100px;margin-left:100px;display:flex;">
+    <div style="top:50px;position: relative;margin-left:50px;"><img src="scope2.jpg" height="400px" width="500px" alt="scope"></div>
+    <div id="form">
+        <h2>SCOPE INDIA <br>is open 365 days a year</h2>
+        <p style="font-size:14px;color:darkblue;font-weight:lighter;">We are open 7 days 24 hrs to talk to you and listen to <br><br>your queries.</p>
+        <h2 style="color: rgb(16, 184, 16);font-weight: 800;font-family:Arial;">GET A FREE CALL BACK</h2>
+        <form  method="post" asp-controller="Contactas" asp-action="Contact">
+        <label asp-for="Name">Name</label>
+        <input name="Name" type="text"  placeholder="Enter your name">
+        <span asp-validation-for="Name" class="text-danger"></span>
+        <br>
+        <label asp-for="Email">Email</label>
+        <input name="Email" type="email" placeholder="Enter your email.">
+            <span asp-validation-for="Email" class="text-danger"></span><br><br>
+            <label asp-for="Subject">Subject</label>
+            
+        <input type="text"asp-for="Subject"  placeholder="write your subject" />
+           
+            <label asp-for="Msg">Message</label>
+        <input asp-for="Msg" type="text" name="msg" placeholder="write your message" />
+           
+        <input type="submit" value="Send" style="height:30px;width:418px;color:white;background-color: rgb(33, 201, 33);font-size:15px;font-weight:800; border:1px solid rgb(16, 184, 16);border-radius:5px;">
+        </form>
+    </div>
+   
+
+
+   
+
+
+    @section Scripts {
+        @await Html.PartialAsync("/Views/Shared/_ValidationScriptsPartial.cshtml")
+    }

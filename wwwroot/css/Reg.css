@@ -21,17 +21,7 @@ h4 {
 
 #sec {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 1050px;
-    width: 980px;
-    border: 1px solid rgb(202, 200, 200);
-    border-radius: 3px;
-    position: absolute;
-    left: 180px;
-    top: 400px;
-    background-color: rgb(245, 241, 241);
-    box-sizing: border-box;
+
 }
 
 .con {

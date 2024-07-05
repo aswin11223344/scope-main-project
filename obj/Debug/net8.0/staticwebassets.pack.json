@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\project-ScopeIndia.bundle.scp.css",
-      "PackagePath": "staticwebassets\\project-ScopeIndia.bundle.scp.css"
+      "Id": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\project_ScopeIndia.bundle.scp.css",
+      "PackagePath": "staticwebassets\\project_ScopeIndia.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\wwwroot\\css\\Reg.css",
@@ -19,6 +19,10 @@
     {
       "Id": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\wwwroot\\js\\reg_city.js",
+      "PackagePath": "staticwebassets\\js\\reg_city.js"
     },
     {
       "Id": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\wwwroot\\js\\site.js",
@@ -253,19 +257,19 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.project-ScopeIndia.props",
-      "PackagePath": "build\\project-ScopeIndia.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.project_ScopeIndia.props",
+      "PackagePath": "build\\project_ScopeIndia.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.project-ScopeIndia.props",
-      "PackagePath": "buildMultiTargeting\\project-ScopeIndia.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.project_ScopeIndia.props",
+      "PackagePath": "buildMultiTargeting\\project_ScopeIndia.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.project-ScopeIndia.props",
-      "PackagePath": "buildTransitive\\project-ScopeIndia.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.project_ScopeIndia.props",
+      "PackagePath": "buildTransitive\\project_ScopeIndia.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.project-ScopeIndia.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.project_ScopeIndia.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     }
   ],
