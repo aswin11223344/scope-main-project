@@ -34,7 +34,7 @@ namespace project_ScopeIndia.Controllers
                 SqlConnection con = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=scope_india_project;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
                 con.Open();
 
-                SqlCommand cmd = new SqlCommand("insert into Register(Name,Age,Country,State,City,PhoneNumber,Email,Gender,Hobbies) values(@name,@age,@country,@state,@city,@phonenumber,@email,@gender,@hobbies)", con);
+                SqlCommand cmd = new SqlCommand("insert into Register(Name,Age,Country,State,City,PhoneNo,Email,Gender,Hobbies) values(@name,@age,@country,@state,@city,@phonenumber,@email,@gender,@hobbies)", con);
                 cmd.Parameters.AddWithValue("@name", objr.Name);
                 cmd.Parameters.AddWithValue("@age", objr.Age);
                 cmd.Parameters.AddWithValue("@country", objr.Country);
