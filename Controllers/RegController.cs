@@ -13,10 +13,7 @@ namespace project_ScopeIndia.Controllers
         [BindProperty]
         public List<string> Hobbies { get; set; }
         string hobbies;
-        public IActionResult Index()
-        {
-            return View();
-        }
+      
         [HttpPost]
         public IActionResult Reg(Reg objr)
         {

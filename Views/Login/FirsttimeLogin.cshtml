@@ -1,4 +1,4 @@
-﻿@model project_ScopeIndia.Models.Login;
+﻿@model project_ScopeIndia.Models.Flogin;
 
 @{
     ViewData["Title"] = "Login";
@@ -6,7 +6,7 @@
 
 <h2>Login</h2>
 
-<form asp-controller="Login" asp-action="Login" method="post">
+<form asp-controller="Login" asp-action="FirsttimeLogin" method="post">
     <div class="form-group">
         <label asp-for="Email" class="control-label"></label>
         <input asp-for="Email" class="form-control" />
@@ -18,24 +18,19 @@
         <span asp-validation-for="Password" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <input asp-for="RememberMe" class="form-check-input" />
-        <label asp-for="RememberMe" class="form-check-label">Remember me</label>
+        <label asp-for="ConfirmPassword" class="control-label"></label>
+        <input asp-for="ConfirmPassword" class="form-control" />
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
     </div>
     <div class="form-group">
         <input type="submit" value="Login" class="btn btn-primary" />
     </div>
-    <div class="form-group">
-        <a asp-action="ForgotPassword">Forgot your password?</a>
-    </div>
-    <div class="form-group">
-        <a asp-action="Firsttimelogin">first time login?</a>
-    </div>
 
 
 </form>
-
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+
