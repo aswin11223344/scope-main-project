@@ -41,21 +41,51 @@ namespace project_ScopeIndia.Controllers
                 }
             }
             if (listemail.Count == 0)
+
             {
-                return View("Login");
+                ViewBag.msg = "Email is not Register ";
+                return View();
+            }
+            else
+            {
+                return View("Flogin2");
+            }
+           
+       }
+        public IActionResult Flogin2()
+        {
+            if (HttpContext.Request.Cookies["Email"] != null)
+            {
+
+                return RedirectToAction("Reg");
             }
             else
             {
                 return View();
             }
-          
-
            
-
-
-            
+           
         }
-       
-      
+        [HttpPost]
+        public IActionResult Flogin2(Flogin2 flogin2)
+
+        {
+            Flogin flogin1 = new Flogin();
+            if (flogin2.RememberMe) { 
+            CookieOptions option=new CookieOptions();
+                option.Expires= DateTime.Now.AddDays(1);
+                HttpContext.Response.Cookies.Append("Email", flogin1.Email, option);
+                HttpContext.Response.Cookies.Append("ConfirmPassword", flogin2.ConfirmPassword, option);
+                return View();
+            }
+            else
+            {
+             
+            }
+            return View();
+        }
+
+
+
     }
 }
