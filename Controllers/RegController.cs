@@ -1,11 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
+using project_ScopeIndia.model;
 using project_ScopeIndia.Models;
 
 namespace project_ScopeIndia.Controllers
 {
     public class RegController : Controller
     {
+        public readonly Mydbcontext Mydbcontext;
+        public RegController(Mydbcontext mydbcontext)
+        {
+            Mydbcontext = mydbcontext;
+         
+          
+        }
+
         public IActionResult Reg()
         {
             return View();
@@ -27,23 +36,27 @@ namespace project_ScopeIndia.Controllers
                         hobbies += item + ";";
                     }
                 }
+            var table = new ScopeTable
+            {
+                Id = Guid.NewGuid(),
+                Name = objr.Name,
+                Age = objr.Age,
+                Country = objr.Country,
+                State = objr.State,
+                City = objr.City,
+                PhoneNumber = objr.PhoneNumber,
+                Email = objr.Email,
+                Gender = objr.Gender,
+                Hobbies = hobbies
 
-                SqlConnection con = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=scope_india_project;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
-                con.Open();
 
-                SqlCommand cmd = new SqlCommand("insert into Register(Name,Age,Country,State,City,PhoneNo,Email,Gender,Hobbies) values(@name,@age,@country,@state,@city,@phonenumber,@email,@gender,@hobbies)", con);
-                cmd.Parameters.AddWithValue("@name", objr.Name);
-                cmd.Parameters.AddWithValue("@age", objr.Age);
-                cmd.Parameters.AddWithValue("@country", objr.Country);
-                cmd.Parameters.AddWithValue("@state", objr.State);
-                cmd.Parameters.AddWithValue("@city", objr.City);
-                cmd.Parameters.AddWithValue("@phonenumber", objr.PhoneNumber);
-                cmd.Parameters.AddWithValue("@email", objr.Email);
-                cmd.Parameters.AddWithValue("@gender", objr.Gender);
-                cmd.Parameters.AddWithValue("@hobbies", hobbies);
-                cmd.ExecuteNonQuery();
-                con.Close();
 
+
+            };
+            Mydbcontext.ScopeTables.Add(table);
+            Mydbcontext.SaveChanges();
+
+             
                 return View();
             }
         }

@@ -4,23 +4,50 @@
     ViewData["Title"] = "Login";
 }
 
-<h2>Login</h2>
+<body style=" margin-top:200px;  background-image:url(https://scopeindia.org/images/snowpark-skis-headerbg2.jpg);background-repeat: no-repeat;background-position:center top;background-size: cover;background-attachment:fixed;">
 
-<form asp-controller="Login" asp-action="FirsttimeLogin" method="post">
-    <div class="form-group">
-        <label asp-for="Email" class="control-label"></label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
-        <span class="text-danger">@ViewBag.msg</span>
-    </div>
+    <main class="container" style="height:900px;">
+        <div class="row">
+            <div class="col-md-6" style="margin-top:160px;">
+                <h3 style=" text-align:center;color:white;font-size:50px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Don't Look Backword</h3><br>
+                <h3 style="text-align:center;color:white; font-size:60px;">WHILE GOING FORWARD</h3>
+            </div>
+            <div class="col-md-6" style="margin-top: 100px;">
+                <h3 style="color:white;font-size:30PX; text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">LOGIN</h3>
 
- 
-    <div class="form-group">
-        <input type="submit" value="Next" class="btn btn-primary" />
-    </div>
+                <form asp-controller="Login" asp-action="Login" method="post" class="mt-5">
 
 
-</form>
+                    <center>
+                        <div class="form-group mt-5">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" placeholder=" Email" class="form-control" style="max-width:400px;"></input>
+                            <span asp-validation-for="Email" class="text-danger">@ViewBag.msg</span>
+                        </div>
+                    
+                    </center>
+
+
+
+
+
+                  
+                    <center>
+                        <div class="form-group mt-5">
+                            <input type="submit" value="Go" class="btn btn-success mt-5" style="width:100px;" />
+                        </div>
+                    </center>
+
+
+
+                </form>
+
+            </div>
+
+        </div>
+    </main>
+    </body>
+
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

@@ -1,7 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using project_ScopeIndia.model;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<Mydbcontext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("Entity")));
 
 var app = builder.Build();
 

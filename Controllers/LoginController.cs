@@ -28,7 +28,7 @@ namespace project_ScopeIndia.Controllers
        
         public IActionResult Firsttimelogin(Flogin flogin) {
          
-            SqlConnection FCON = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=scope_india_project;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+            SqlConnection FCON = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Scope;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
             FCON.Open();
 
             SqlCommand cmd = new SqlCommand("SELECT EMAIL FROM Register WHERE EMAIL=@email",FCON);
@@ -52,13 +52,13 @@ namespace project_ScopeIndia.Controllers
             }
            
        }
-        public IActionResult Flogin2()
+      /*  public IActionResult Flogin2()
         {
-            if (HttpContext.Request.Cookies["Email"] != null)
+           *//* if (HttpContext.Request.Cookies["Email"] != null)
             {
 
                 return RedirectToAction("Reg");
-            }
+            }*//*
             else
             {
                 return View();
@@ -83,7 +83,7 @@ namespace project_ScopeIndia.Controllers
              
             }
             return View();
-        }
+        }*/
 
 
 

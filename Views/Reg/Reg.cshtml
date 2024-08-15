@@ -1,25 +1,34 @@
 ﻿@model project_ScopeIndia.Models.Reg
+@{
+    ViewData["Title"] = "Registration";
+}
 
-
-<h3>Registration</h3>
-<h4>It's just a matter of 80 days to an IT job!</h4>
-<section >
-    <div class="container mt-5">
-        <h2 class="mb-4">Registration Form</h2>
+  <body style="margin-top:150px; background-image:url(https://scopeindia.org/images/snowpark-skis-headerbg2.jpg);background-repeat: no-repeat;background-position:center top;background-size: cover;background-attachment:fixed;">
+    <h3 style="color: white;text-align: center;">Registration</h3>
+<h4 style="color: white;text-align: center;">It's just a matter of 80 days to an IT job!</h4>
+<section  class="container ">
+    <div class="card">
+        <div class="card-header  text-white text-uppercase" style="background-color:goldenrod;" >
+        <h4>Student Information Form</h4>
+        </div>
+      <div class="card-body container">
         <form  asp-controller="Reg" asp-action="Reg" method="post" enctype="multipart/form-data">
-            <div class="mb-3">
-                <label class="form-label" asp-for="Name">Name:</label>
-                <input type="text" name="Name" class="form-control">
-                <span asp-validation-for="Name"></span>
+            <div class=" row mt-5">
+               <div class="mb-3 col-6">
+                   <label class="form-label" asp-for="Name">Name:</label>
+                   <input type="text" name="Name" class="form-control">
+                   <span asp-validation-for="Name"></span>
+               </div>
+           
+           
+                <div class="mb-3 col-6">
+                    <label class="form-label" asp-for="Age">Age:</label>
+                    <input type="number" asp-for="Age" class="form-control">
+                    <span asp-validation-for="Age"></span>
+                </div>
             </div>
-
-            <div class="mb-3">
-                <label class="form-label" asp-for="Age">Age:</label>
-                <input type="number" asp-for="Age" class="form-control">
-                <span asp-validation-for="Age"></span>
-            </div>
-
-            <div class="mb-3">
+           <div class="row">
+             <div class="mb-3 col">
                 <label class="form-label" asp-for="Country">Country:</label>
                 <select id="country" asp-for="Country" name="country" class="form-select" onchange="updateStates()">
                     <option value="" disabled selected>Select Country</option>
@@ -27,9 +36,12 @@
                     <option value="USA">USA</option>
                 </select>
                 <span asp-validation-for="Country"></span>
-            </div>
+               </div>
 
-            <div class="mb-3">
+           </div>
+           <div class="row">
+            
+            <div class="mb-3 col">
                 <label class="form-label" asp-for="State">State:</label>
                 <select id="state" asp-for="State" name="state" class="form-select" onchange="updateCities()" required>
                     <option value="" disabled selected>Select State</option>
@@ -37,7 +49,9 @@
                 <span asp-validation-for="State"></span>
             </div>
 
-            <div class="mb-3">
+           </div>
+           <div class="row">
+            <div class="mb-3 col">
                 <label class="form-label" asp-for="City">City:</label>
                 <select id="city" asp-for="City" name="city" class="form-select" required>
                     <option value="" disabled selected>Select City</option>
@@ -45,101 +59,83 @@
                 <span asp-validation-for="City"></span>
             </div>
 
-            <div class="mb-3">
+           </div>
+           <div class="row">
+            <div class="mb-3 col">
                 <label class="form-label" asp-for="PhoneNumber">Phone Number:</label>
                 <input type="tel" class="form-control" asp-for="PhoneNumber" id="phoneNumber" name="phoneNumber" required>
                 <span asp-validation-for="PhoneNumber"></span>
             </div>
-
-            <div class="mb-3">
+           </div>
+           <div class="row">
+            <div class="mb-3  col">
                 <label class="form-label" asp-for="Email">Email:</label>
                 <input type="email" class="form-control" asp-for="Email" id="email" name="email" required>
                 <span asp-validation-for="Email"></span>
             </div>
-
-            <div class="mb-3">
+           </div>
+           <div class="row">
+            <div class="mb-3 col">
                 <label class="form-label" asp-for="Gender">Gender:</label>
                 <div class="form-check">
                     <input type="radio" asp-for="Gender" id="male" name="gender" value="Male" class="form-check-input" required>
                     <label for="male" class="form-check-label">Male</label>
                 </div>
-                <div class="form-check">
+                <div class="form-check ">
                     <input type="radio" asp-for="Gender" id="female" name="gender" value="Female" class="form-check-input" required>
                     <label for="female" class="form-check-label">Female</label>
                 </div>
-                <div class="form-check">
+                <div class="form-check ">
                     <input type="radio" asp-for="Gender" id="other" name="gender" value="Other" class="form-check-input" required>
                     <label for="other" class="form-check-label">Other</label>
                 </div>
                 <span asp-validation-for="Gender"></span>
             </div>
-
-            @{
-                string[] hobbies = { "Reading", "Dancing", "Swimming" };
-            }
-
-            @foreach (var hobby in hobbies)
-            {
-                <label>
-                    <input type="checkbox" name="Hobbies" value="@hobby" />
-                    @hobby
-                </label>
-                <br />
-            }
-
-            <input type="submit" class="btn btn-primary" value="Submit" />
-        </form>
+           </div>
+               
+   
+               
+   
+   
+               
+   
+              
+   
+              
+   
+              
+   
+                @{
+                   string[] hobbies = { "Reading", "Dancing", "Swimming" };
+               }
+              <label>Hobbies:</label><br />
+               @foreach (var hobby in hobbies)
+               {
+                   <label>
+                       <input type="checkbox" name="Hobbies" value="@hobby" />
+                       @hobby
+                   </label>
+                   <br />
+               } 
+               <center>
+                        <input type="submit" class="btn btn-primary col" style="width:200px" value="Submit" />
+               </center>
+             
+           
+           </form>
+      </div>
+       
+       
+       
+    
     </div>
+    
 
    
 
 </section>
 
-<div id="final">
-    <div id="foot">
-        <div class="foot aa">
-            <p>
-                <b>1000+</b><br>
-                S&nbsp;T&nbsp;U&nbsp;D&nbsp;E&nbsp;N&nbsp;T&nbsp;S A&nbsp;R&nbsp;E <br>
-                T&nbsp;R&nbsp;A&nbsp;I&nbsp;N&nbsp;E&nbsp;D E&nbsp;V&nbsp;E&nbsp;R&nbsp;Y Y&nbsp;E&nbsp;A&nbsp;R
-            </p>
-        </div>
-        <div class="foot bb">
-            <p>
-                <b> 30+</b><br>
-                C&nbsp;O&nbsp;M&nbsp;P&nbsp;U&nbsp;T&nbsp;E&nbsp;R &nbsp;&nbsp;C&nbsp;O&nbsp;U&nbsp;R&nbsp;S&nbsp;E&nbsp;S
-            </p>
-        </div>
-        <div class="foot cc">
-            <p>
-                <b>95%</b><br>
-                S&nbsp;T&nbsp;U&nbsp;D&nbsp;E&nbsp;N&nbsp;T&nbsp;S&nbsp; A&nbsp;R&nbsp;E&nbsp;&nbsp; G&nbsp;E&nbsp;T&nbsp;T&nbsp;I&nbsp;N&nbsp;G <br>
-                P&nbsp;L&nbsp;A&nbsp;C&nbsp;E&nbsp;D&nbsp; E&nbsp;V&nbsp;E&nbsp;R&nbsp;Y&nbsp; Y&nbsp;E&nbsp;A&nbsp;R
-            </p>
 
-        </div>
-
-
-
-    </div>
-    <div id="foot2">
-        <img src="foot1.png" alt="">
-        <p>Technopark TVM | Thampanoor TVM | Kochi, Kerala | Nagercoil, Tamil Nadu</p>
-        <img class="a4" src="foot2.png" alt="" height="100px" width="400px"><br>
-        <div id="pfoot">
-            <p id="a5">An ISO 9001:2015 Certified Company</p>
-            <p id="a6">All Rights Reserved <a href="">Suffix E Solutions</a> © 2007-2024</p>
-        </div> <br>
-        <div id="foot3">
-            <a href="">9745936073 (TPK)</a>
-            <a href="">9745936073 (TVM)</a>
-            <a href="">7592939481 (EKM)</a>
-            <a href="">8075536185 (NGL)</a>
-            <a href="">info@scopeindia.org</a>
-
-        </div>
-    </div>
-</div>
 <script>
     const locations = {
         "India": {
@@ -194,6 +190,8 @@
         }
     }
 </script>
-@section Scripts {
+
+ @section Scripts {
     @await Html.PartialAsync("/Views/Shared/_ValidationScriptsPartial.cshtml")
-}
+} 
+   </body>

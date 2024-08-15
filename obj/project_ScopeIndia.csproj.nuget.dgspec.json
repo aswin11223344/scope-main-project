@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project_ScopeIndia.csproj": {}
+    "C:\\Users\\aswin\\OneDrive\\Desktop\\Projects\\scope-main-project\\project_ScopeIndia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project_ScopeIndia.csproj": {
+    "C:\\Users\\aswin\\OneDrive\\Desktop\\Projects\\scope-main-project\\project_ScopeIndia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project_ScopeIndia.csproj",
+        "projectUniqueName": "C:\\Users\\aswin\\OneDrive\\Desktop\\Projects\\scope-main-project\\project_ScopeIndia.csproj",
         "projectName": "project_ScopeIndia",
-        "projectPath": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\project_ScopeIndia.csproj",
-        "packagesPath": "C:\\Users\\Scope\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Scope\\aswin-project\\scope-main-project\\obj\\",
+        "projectPath": "C:\\Users\\aswin\\OneDrive\\Desktop\\Projects\\scope-main-project\\project_ScopeIndia.csproj",
+        "packagesPath": "C:\\Users\\aswin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aswin\\OneDrive\\Desktop\\Projects\\scope-main-project\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Scope\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aswin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,17 +52,21 @@
           "dependencies": {
             "MailKit": {
               "target": "Package",
-              "version": "[4.6.0, )"
+              "version": "[4.7.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
@@ -80,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

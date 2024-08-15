@@ -8,46 +8,63 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-     <link rel="stylesheet" href="~/css/projectstyle.css"></link>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/Reg.css"></link>
+    <link href="~/css/project.css" rel="stylesheet" />
     <script src="~js/reg_city.js"></script>
+    <style>
+     
+      
+
+      
+    </style>
   
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3" id="#menubar" >
+   
+    <header class="fixed-top">
+       
+          
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3 " style="background-color:#050a4c;">
+            
+               
+            
+            <div class="container-fluid" >
+                <img src="~/logo.png" alt="scope" style="width:50px">
+              
+                <a class="navbar-brand"style="color:white;font-size:30px"; asp-area="" asp-controller="Home" asp-action="Index">Scope India</a>
+                
+                <button style="color:white" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span style="color:white" class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between ">
 
-               <div class="container-fluid">
-                <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link"   asp-controller="Home" asp-action="Index">Home</a>
+                    <ul class="navbar-nav flex-grow-1 justify-content-around">
+                        <li class="nav-item align-content-center">
+                            <a class="nav-link " style="color:white" asp-area="" asp-controller="Login" asp-action="login">Login</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link"  asp-controller="Home" asp-action="Privacy">Placement cell</a>
+                        <li class="nav-item ab">
+                            <a class="nav-link" style="color:white" asp-area="" asp-controller="Aboutus" asp-action="About us">About us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Project" asp-action="home">Courses</a>
+                            
+                               
+
+                             
+                        <li class="nav-item ab">
+                            <a class="nav-link " style="color:white" asp-area="" asp-controller="Contactas" asp-action="Contact">Contact</a>
+                        </li>
+                        <li class="nav-item ab">
+                            <a class="nav-link" style="color:white" asp-area="" asp-controller="Reg" asp-action="Reg">Register</a>
                         </li>
                     </ul>
-                    <img src="scopea.png" alt="scope">
-                    <ul class="navbar-nav flex-grow-1" id="c"/>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Home" asp-action="Index">Know SCOPE INDIA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"  asp-controller="Contactas" asp-action="Contact">Contact us</a>
-                        </li>
-                        <li class="nav-item">
-                    <button class="btn btn-warning"><a asp-controller="Reg" asp-action="Reg">Register Now</a></button>
-                        </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Login" asp-action="Login">LOGIN</a>
-                </li>
-                    </ul>
-                 
+                </div>
+               
             </div>
         </nav>
+        <div id="div3"><p id="p1">One of the best Training Destination for Software, Networking and Cloud Computing courses in India with 17 years of Industrial experience.</p></div>
+
     </header>
   
     <div class="container">
@@ -55,10 +72,134 @@
             @RenderBody()
 		</main>
     </div>
+    <style>
+        #foot {
+            height: 800px;
+            width:100%;
+            background-color: rgba(6,6, 85,0.952);
+            display: flex;
+        }
 
-    <footer class="border-top footer text-muted">
+        .foot {
+            height: 150px;
+            width: 380px;
+            text-align: center;
+        }
+
+            .foot b {
+                font-weight: 900;
+                font-size: 50px;
+                font-family: arial;
+                color: rgb(55, 179, 228);
+            }
+
+       
+
+      
+
+        .foot p {
+            word-spacing: 5px;
+            color: white;
+            font-family: arial;
+            font-weight: 750;
+            text-justify: inter-character;
+        }
+
+
+            #foot2 p {
+                color: rgb(202, 198, 198);
+                font-family: arial;
+               
+            }
+
+       
+
+        #a5 {
+            font-size: small;
+           
+        }
+
+        #a6 {
+            font-size: small;
+           
+        }
+
+       
+
+            #foot3 a {
+                padding-left: 40px;
+                color: white;
+                text-decoration-line: none;
+            }
+
+        #a6 a {
+            color: white;
+            text-decoration-line: none;
+            font-weight: 300;
+        }
+
+        #foot3 a:hover {
+            text-decoration-line: underline;
+        }
+
+        #a6 a:hover {
+            text-decoration-line: underline;
+        }
+    </style>
+
+    <footer class="border-top footer text-muted" id="foot">
         <div class="container">
-            &copy; 2024 - project_ScopeIndia - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+               <div class="row">
+                <div class="foot aa col">
+                    <p>
+                        <b>1000+</b><br>
+                        S&nbsp;T&nbsp;U&nbsp;D&nbsp;E&nbsp;N&nbsp;T&nbsp;S A&nbsp;R&nbsp;E <br>
+                        T&nbsp;R&nbsp;A&nbsp;I&nbsp;N&nbsp;E&nbsp;D E&nbsp;V&nbsp;E&nbsp;R&nbsp;Y Y&nbsp;E&nbsp;A&nbsp;R
+                    </p>
+                </div>
+               </div>
+               <div class="row justify-content-around">
+                <div class="foot bb col-6">
+                    <p>
+                        <b> 30+</b><br>
+                        C&nbsp;O&nbsp;M&nbsp;P&nbsp;U&nbsp;T&nbsp;E&nbsp;R &nbsp;&nbsp;C&nbsp;O&nbsp;U&nbsp;R&nbsp;S&nbsp;E&nbsp;S
+                    </p>
+                </div>
+                <div class="foot cc col-6">
+                    <p>
+                        <b>95%</b><br>
+                        S&nbsp;T&nbsp;U&nbsp;D&nbsp;E&nbsp;N&nbsp;T&nbsp;S&nbsp; A&nbsp;R&nbsp;E&nbsp;&nbsp; G&nbsp;E&nbsp;T&nbsp;T&nbsp;I&nbsp;N&nbsp;G <br>
+                        P&nbsp;L&nbsp;A&nbsp;C&nbsp;E&nbsp;D&nbsp; E&nbsp;V&nbsp;E&nbsp;R&nbsp;Y&nbsp; Y&nbsp;E&nbsp;A&nbsp;R
+                    </p>
+
+                </div>
+               </div>
+               
+
+
+
+           
+            <center>
+                <div id="foot2">
+                    <img src="~/footimg.png" alt="">
+                    <p>Technopark TVM | Thampanoor TVM | Kochi, Kerala | Nagercoil, Tamil Nadu</p>
+                    <img class="a4" src="~/foot2.png" alt="" height="150px"width="400px"><br>
+                    <div id="pfoot">
+                        <p id="a5">An ISO 9001:2015 Certified Company</p>
+                        <p id="a6">All Rights Reserved <a href="">Aswin</a> 2024</p>
+                    </div> <br>
+                    <div id="foot3">
+                        <a href="">9745936073 (TPK)</a>
+                        <a href="">9745936073 (TVM)</a>
+                        <a href="">7592939481 (EKM)</a>
+                        <a href="">8075536185 (NGL)</a>
+                        <a href="">info@scopeindia.org</a>
+
+                    </div>
+                </div>
+            </center>
+           
+
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
