@@ -15,18 +15,18 @@
             <div class="col-md-6" style="margin-top: 100px;" >
                 <h3 style="color:white;font-size:30PX; text-align: center;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">LOGIN</h3>
                 
-                <form asp-controller="Login" asp-action="Login" method="post" class="mt-5">
+                <form asp-controller="Login" asp-action="Flogin2" method="post" class="mt-5">
                
 
                     <center>
                         <div class="form-group ">
                             <label asp-for="Email" class="control-label"></label>
-                            <input asp-for="Email" placeholder=" Email" class="form-control" style="max-width:400px;" ></input>
+                            <input asp-for="Email" placeholder=" Email" class="form-control" style="max-width:300px;" ></input>
                             <span asp-validation-for="Email" clas="text-danger"></span>
                         </div>
                         <div class="form-group mt-3">
                             <label asp-for="Password" class="control-label"></label>
-                            <input asp-for="Password" placeholder="Password" class="form-control " style="max-width:400px;"  ></input>
+                            <input asp-for="Password" placeholder="Password" class="form-control " style="max-width:300px;"  ></input>
                             <span asp-validation-for="Password" class="text-danger"></span>
                         </div>
                     </center>

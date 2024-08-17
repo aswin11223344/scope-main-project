@@ -49,9 +49,6 @@ namespace project_ScopeIndia.Controllers
                 Gender = objr.Gender,
                 Hobbies = hobbies
 
-
-
-
             };
             Mydbcontext.ScopeTables.Add(table);
             Mydbcontext.SaveChanges();
